@@ -1,8 +1,5 @@
-# Sistema-de-Agendamento-de-Clinica-Médica
-Sistema de Agendamento e Consulta Clínica/Médica
-
  # Sistema de Agendamento - Clínica Médica Vida Saudável
-
+> Sistema de Agendamento e Consulta Clínica/Médica
 > Projeto desenvolvido em JavaScript para organizar o agendamento de consultas da Clínica Médica Vida Saudável.
 
 > # Objetivo
