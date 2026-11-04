@@ -3,7 +3,7 @@ Sistema de Agendamento e Consulta Clínica/Médica
 
  # Sistema de Agendamento - Clínica Médica Vida Saudável
 
->Projeto desenvolvido em JavaScript para organizar o agendamento de consultas da Clínica Médica Vida Saudável.
+> Projeto desenvolvido em JavaScript para organizar o agendamento de consultas da Clínica Médica Vida Saudável.
 
 > # Objetivo
 > Criar um sistema interativo no terminal para cadastrar, listar e buscar consultas.
@@ -17,11 +17,7 @@ Sistema de Agendamento e Consulta Clínica/Médica
 
 > #Tecnologias utilizadas
 > - JavaScript
-> - Node.js
 
-> # Como executar
-> No terminal, execute:
-> node index.js
 > 
 > # Menu
 > 1. Cadastrar consulta
@@ -32,6 +28,9 @@ Sistema de Agendamento e Consulta Clínica/Médica
 > # Integrantes
 > - Monansci
 > - Jovino
+> - Willian
+> - Léonardo
+> - Isaque
 
 > # Status
 > Em desenvolvimento.
