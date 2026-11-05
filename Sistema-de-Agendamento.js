@@ -55,3 +55,29 @@ function buscar() {
   }
 }
  
+// Menu principal
+let opcao = "";
+ 
+while (opcao != "4") {
+  console.log("");
+  console.log("CLÍNICA VIDA SAUDÁVEL");
+  console.log("1 - Cadastrar consulta");
+  console.log("2 - Listar consultas");
+  console.log("3 - Buscar por paciente");
+  console.log("4 - Sair");
+  opcao = prompt("Escolha uma opção: ");
+ 
+  if (opcao == "1") {
+    cadastrar();
+  } else if (opcao == "2") {
+    listar();
+  } else if (opcao == "3") {
+    buscar();
+  } else if (opcao == "4" || opcao == null) {
+    console.log("Sistema encerrado.");
+    opcao = "4";
+  } else {
+    console.log("Opção inválida!");
+  }
+}
+
