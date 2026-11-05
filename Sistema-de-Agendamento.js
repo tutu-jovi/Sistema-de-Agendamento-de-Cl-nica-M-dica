@@ -36,3 +36,22 @@ function listar() {
   }
 }
  
+function buscar() {
+  let nome = prompt("Digite o nome do paciente: ");
+  let achou = false;
+ 
+  for (let i = 0; i < consultas.length; i++) {
+    if (consultas[i].paciente == nome) {
+      console.log("Médico: " + consultas[i].medico);
+      console.log("Data: " + consultas[i].data);
+      console.log("Horário: " + consultas[i].horario);
+      console.log("-------------------");
+      achou = true;
+    }
+  }
+ 
+  if (achou == false) {
+    console.log("Paciente não encontrado.");
+  }
+}
+ 
