@@ -20,3 +20,19 @@ function cadastrar() {
   consultas.push(consulta);
   console.log("Consulta cadastrada!");
 }
+ 
+function listar() {
+  if (consultas.length == 0) {
+    console.log("Nenhuma consulta cadastrada.");
+    return;
+  }
+ 
+  for (let i = 0; i < consultas.length; i++) {
+    console.log("Paciente: " + consultas[i].paciente);
+    console.log("Médico: " + consultas[i].medico);
+    console.log("Data: " + consultas[i].data);
+    console.log("Horário: " + consultas[i].horario);
+    console.log("-------------------");
+  }
+}
+ 
